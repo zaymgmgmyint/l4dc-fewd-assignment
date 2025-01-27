@@ -1,0 +1,38 @@
+/* class */
+hr {
+  border-top: 2px solid #ccc;
+  width: 80%;
+  margin: auto;
+}
+
+
+/* custom class */
+.bmt-20{
+  margin-top: 20px;
+}
+
+.card-img-top {
+  width: 100%; /* Make the image take full width of the card */
+  height: 300px; /* Fix the height to 300px */
+  object-fit: cover; /* Ensure the image covers the dimensions without distortion */
+  border-radius: 8px; /* Optional: Add rounded corners */
+}
+
+/* Cart Icon Badge Styling */
+#cart-count {
+  position: absolute;
+  top: -10px; /* Moves the badge slightly above the icon */
+  left: 100%; /* Aligns to the right of the icon */
+  transform: translate(-50%, 0); /* Centers the badge horizontally */
+  font-size: 0.75rem; /* Makes the text smaller for a compact badge */
+  background-color: #dc3545; /* Bootstrap red for the badge */
+  color: white; /* Text color */
+  border-radius: 50%; /* Makes the badge circular */
+  padding: 2px 6px; /* Adds space inside the badge for text */
+}
+
+/* Optional: Add some hover effects to the cart icon */
+.nav-link:hover .bi-cart {
+  color: #ffc107; /* Change cart icon color on hover */
+  transition: color 0.2s ease-in-out;
+}
