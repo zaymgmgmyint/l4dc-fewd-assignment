@@ -36,3 +36,14 @@ hr {
   color: #ffc107; /* Change cart icon color on hover */
   transition: color 0.2s ease-in-out;
 }
+
+/* Shopping cart no font style */
+.cart-font-size{
+  font-size: 0.75rem;
+}
+
+/* Registration form  */
+.form-container {
+  max-width: 600px;
+  margin: auto;
+}

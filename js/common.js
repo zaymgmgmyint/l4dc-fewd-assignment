@@ -55,3 +55,17 @@ function sendSubscriptionEmail() {
 
   return false; // Prevent form submission
 }
+
+function searchCoffee() {
+  const searchInput = document.getElementById("search-box").value.toLowerCase();
+  const coffeeItems = document.querySelectorAll(".coffee-item");
+
+  coffeeItems.forEach((item) => {
+    const coffeeName = item.getAttribute("data-name").toLowerCase();
+    if (coffeeName.includes(searchInput)) {
+      item.style.display = "block";
+    } else {
+      item.style.display = "none";
+    }
+  });
+}
