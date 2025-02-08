@@ -7,6 +7,20 @@ hr {
 
 
 /* custom class */
+
+.hero-banner {
+  background: url('../images/banner_1.jpg') no-repeat center center / cover;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-text{
+  color: antiquewhite;
+}
+
 .bmt-20{
   margin-top: 20px;
 }
